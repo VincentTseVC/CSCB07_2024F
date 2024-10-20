@@ -117,7 +117,7 @@ public class Polynomial {
     // this   => 6 - 2x + 5x3 + 2x4 => [6, -2, 5, 2] and [0, 1, 3, 4]
     // other  => 5 + 2x + 6x4       => [5,  2, 6]    and [0, 1, 4]
 
-    // res    => 30 - 4x + 5x3 + 12x4
+    // res    => 30 - 4x2 + 5x3 + 12x8 ****************
 
     // => 4
     int max_exp = Math.max(this.exponents[this.exponents.length-1],
